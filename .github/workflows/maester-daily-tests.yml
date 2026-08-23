@@ -32,9 +32,8 @@ jobs:
           include_private_tests: false
           include_exchange: false
           include_teams: false
-          include_sharepoint: false
-          include_azure: false
-          include_defender: false
+          include_longrunning_tests: false
+          include_preview_tests: false
           maester_version: latest
           disable_telemetry: false
           step_summary: true
